@@ -15,7 +15,6 @@ import reactor.core.publisher.Mono;
 @RequiredArgsConstructor
 public class StreamVideoController {
 
-    final private RestTemplate restTemplate;
     final private WebClient.Builder webClientBuilder;
 
     @GetMapping
